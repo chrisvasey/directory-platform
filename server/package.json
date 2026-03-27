@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "seed": "bun src/seed.ts"
+  },
+  "dependencies": {
+    "elysia": "^1.2.25",
+    "@elysiajs/cors": "^1.2.0",
+    "@elysiajs/static": "^1.1.1"
+  }
+}
